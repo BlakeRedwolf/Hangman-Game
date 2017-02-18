@@ -3,49 +3,41 @@ HW#3
 # HW - {hw_Hangman-Game}
 
 ## Live Link (If relevant)
- - www.example.com
+ - 
 
 ## Description on how to use the app
-
+1. Choose either Single Player or Multiplayer mode.
+2. Choose a Category.
+3. Play Hangman!
+- Even if you lose, you can still keep guessing and eventually you will get the answer.
 ## Requirements
-#### Add a simple description of what the HW requirements were
-
-- Add bullets
-- Like this
-
-1. Or you can use numbered lists
-2. Like this
-	- You can also add a tab and a "-" to add a sub-bullet like this
-3. Make sure the requirements are understandable
+#### 
+-Choose a theme for your hangman game.
+-Use key events to listen for the letters that your players type.
+-Display the following on the page:
+Press any key to get started!
+-Wins: (# of times user guessed the word correctly).
+-If the word is madonna, display it like this when the game starts: _ _ _ _ _ _ _.
+-As the user guesses the correct letters, reveal them: m a d o _  _ a.
+-Number of Guesses Remaining: (# of guesses remaining for the user).
+-Letters Already Guessed: (Letters the user has guessed, displayed like L Z Y H).
+-After the user wins/loses the game should automatically choose another word and make the user play it.
 
 ## Technologies Used
-#### Use bullets to list out the technologies used. For example,
-- Jquery for Dom Manipulation
-- AJAX for API GET requests
+####
+- HTML 5 for layout.
+- CSS 3 for styling.
+- JavaScript for functionality.
 
 ## Code Explaination
-- Here, you can either provide a brief summary about your code and perhaps what you learned or you can go into specif detail about how you tackled certain tasks.
-- Use code snippets for placing example code and then describing it
-- Use subheaders to organize your thoughts
-- This is the most important part as it will show other what your code does with out having to download the code. 
-- In essense, this will also be a form of notes that you may later reference weeks later
+- Created my checklist of to do's for this project
+- Pseudo coded briefly
+- Created Variables
+- Added functions
+- Added loops
+- Listed Errors
+- Checked Syntax Errors (Always my downfall)
+- Got my project up and running in about 3-4 hours.
+- I used reference's from W3 Schools and Stack Overflow for the code on this assignment.
 
 -------------
-
-##Here is an example of what a Readme could look like:
-
-### AJAX Request to Giphy (Example)
-I created a function that allowed me to make an AJAX request to the Giphy API and then allowed me to pass through a callback function in order to further process the JSON object that was returned. 
-
-```
-var settings = {
-  "url": "http://api.giphy.com/v1/gifs/search?q=funny%20cat&api_key=dc6zaTOxFJmzC",
-  "method": "GET"
-  }
-}
-function getGiphyList(cb){
-	$.ajax(settings).done(function (response) {
-	  cb(response)
-	});
-}
-```

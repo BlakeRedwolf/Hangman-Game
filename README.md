@@ -2,7 +2,7 @@
 HW#3
 # HW - {hw_Hangman-Game}
 
-## Live Link (If relevant)
+## https://github.com/BlakeRedwolf/Hangman-Game
  - 
 
 ## Description on how to use the app
